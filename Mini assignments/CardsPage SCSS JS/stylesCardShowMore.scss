@@ -1,0 +1,52 @@
+@import "../scss/reset";
+$bgCOlor: #f5f5f5;
+$borderRadius: 23px;
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    align-items: flex-start;
+    
+    .card{
+        background-color: $bgCOlor;
+        color: #717171;
+        max-width: 220px;
+        text-align: center;
+        margin: 0 20px;
+        padding: 20px;
+        border-radius: $borderRadius;
+        box-shadow: 0 0 40px #bdbdbd;
+        h2 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: $borderRadius;
+            object-fit: cover;
+            margin: 10px 0 30px 0;
+        }
+        p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        input {
+            border-radius: 4px;
+            box-shadow: 0 0 40px #bdbdbd;
+            border: 0px;
+            background-color: darkgray;
+            padding: 5px 10px;
+            margin-top: 10px;
+            &:hover {
+                background-color: darken(darkgray, 50);
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+}

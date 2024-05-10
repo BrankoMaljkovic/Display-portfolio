@@ -1,0 +1,282 @@
+[
+    {
+        "id": "1",
+        "category" : "Web/Programming",
+        "title": "C#",
+        "img": "http://www.mrav.rs/smart/jquery/test/programiranje.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/programerski-kursevi/c-4/"
+    },
+    {
+        "id": "2",
+        "category" : "Web/Programming",
+        "title": "Android",
+        "img": "http://www.mrav.rs/smart/jquery/test/programiranje.jpg",
+        "url": "https://www.smartschool.rs/course/android-programiranje/"
+    },
+    {
+        "id": "3",
+        "category" : "Web/Programming",
+        "title": "WordPress",
+        "img": "http://www.mrav.rs/smart/jquery/test/programiranje.jpg",
+        "url": "https://www.smartschool.rs/course/word-press/"
+    },
+    {
+        "id": "4",
+        "category" : "Web/Programming",
+        "title": "Java",
+        "img": "http://www.mrav.rs/smart/jquery/test/programiranje.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/programerski-kursevi/java-8/"
+    },
+    {
+        "id": "5",
+        "category" : "Web/Programming",
+        "title": "PHP i MySQL",
+        "img": "http://www.mrav.rs/smart/jquery/test/programiranje.jpg",
+        "url": "https://www.smartschool.rs/course/php-i-mysql-u-najavi/"
+    },
+    {
+        "id": "6",
+        "category" : "Web/Programming",
+        "title": "Joomla",
+        "img": "http://www.mrav.rs/smart/jquery/test/programiranje.jpg",
+        "url": "https://www.smartschool.rs/course/joomla/"
+    },
+    {
+        "id": "7",
+        "category" : "Web/Programming",
+        "title": "HTML i CSS",
+        "img": "http://www.mrav.rs/smart/jquery/test/programiranje.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/web-obuke/html-i-css/"
+    },
+    {
+        "id": "8",
+        "category" : "Web/Programming",
+        "title": "Software Tester",
+        "img": "http://www.mrav.rs/smart/jquery/test/programiranje.jpg",
+        "url": "https://www.smartschool.rs/course/softver-tester/"
+    },
+    {
+        "id": "9",
+        "category" : "Web/Programming",
+        "title": "Front-End",
+        "img": "http://www.mrav.rs/smart/jquery/test/programiranje.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/web-obuke/front-end-4/"
+    },
+    {
+        "id": "10",
+        "category" : "SysAdmin",
+        "title": "Windows Server",
+        "img": "http://www.mrav.rs/smart/jquery/test/sysadmin.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/administratorski-kursevi/windows-server/"
+    },
+    {
+        "id": "11",
+        "category" : "SysAdmin",
+        "title": "SQL Server",
+        "img": "http://www.mrav.rs/smart/jquery/test/sysadmin.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/administratorski-kursevi/sql-server/"
+    },
+    {
+        "id": "12",
+        "category" : "SysAdmin",
+        "title": "Windows",
+        "img": "http://www.mrav.rs/smart/jquery/test/sysadmin.jpg",
+        "url": "https://www.smartschool.rs/windows/"
+    },
+    {
+        "id": "13",
+        "category" : "SysAdmin",
+        "title": "SharePoint",
+        "img": "http://www.mrav.rs/smart/jquery/test/sysadmin.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/administratorski-kursevi/sharepoint-2/"
+    },
+    {
+        "id": "14",
+        "category" : "SysAdmin",
+        "title": "CISCO",
+        "img": "http://www.mrav.rs/smart/jquery/test/sysadmin.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/administratorski-kursevi/cisco/"
+    },
+    {
+        "id": "15",
+        "category" : "SysAdmin",
+        "title": "Exchange Server",
+        "img": "http://www.mrav.rs/smart/jquery/test/sysadmin.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/administratorski-kursevi/exchange-server/"
+    },
+    {
+        "id": "16",
+        "category" : "SysAdmin",
+        "title": "Linux",
+        "img": "http://www.mrav.rs/smart/jquery/test/sysadmin.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/administratorski-kursevi/linux/"
+    },
+    {
+        "id": "17",
+        "category" : "Cloud",
+        "title": "Microsoft 365",
+        "img": "http://www.mrav.rs/smart/jquery/test/cloud.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/cloud-kursevi-2/microsoft-365/"
+    },
+    {
+        "id": "18",
+        "category" : "Cloud",
+        "title": "Azure",
+        "img": "http://www.mrav.rs/smart/jquery/test/cloud.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/administratorski-kursevi/azure/"
+    },
+    {
+        "id": "19",
+        "category" : "Cloud",
+        "title": "Office 365",
+        "img": "http://www.mrav.rs/smart/jquery/test/cloud.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/cloud-kursevi-2/office-365/"
+    },
+    {
+        "id": "20",
+        "category" : "Microsoft Office",
+        "title": "Microsoft Word",
+        "img": "http://www.mrav.rs/smart/jquery/test/msoffice.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/ms-office/ms-word/"
+    },
+    {
+        "id": "21",
+        "category" : "Microsoft Office",
+        "title": "Microsoft Excel",
+        "img": "http://www.mrav.rs/smart/jquery/test/msoffice.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/ms-office/ms-excel/"
+    },
+    {
+        "id": "22",
+        "category" : "Microsoft Office",
+        "title": "Microsoft PowerPoint",
+        "img": "http://www.mrav.rs/smart/jquery/test/msoffice.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/ms-office/powerpoint/"
+    },
+    {
+        "id": "23",
+        "category" : "Microsoft Office",
+        "title": "Microsoft Access",
+        "img": "http://www.mrav.rs/smart/jquery/test/msoffice.jpg",
+        "url": "https://www.smartschool.rs/course/napredne-tehnike-rada-sa-microsoft-programom-access/"
+    },
+    {
+        "id": "24",
+        "category" : "Microsoft Office",
+        "title": "Business Master 1",
+        "img": "http://www.mrav.rs/smart/jquery/test/msoffice.jpg",
+        "url": "https://www.smartschool.rs/course/business-master-1/"
+    },
+    {
+        "id": "25",
+        "category" : "Microsoft Office",
+        "title": "Business Master 2 (ECDL Core)",
+        "img": "http://www.mrav.rs/smart/jquery/test/msoffice.jpg",
+        "url": "https://www.smartschool.rs/course/business-master-2/"
+    },
+    {
+        "id": "26",
+        "category" : "Security",
+        "title": "Smart Security",
+        "img": "http://www.mrav.rs/smart/jquery/test/security.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/security-kursevi/smart-security/"
+    },
+    {
+        "id": "27",
+        "category" : "Security",
+        "title": "EC-Council",
+        "img": "http://www.mrav.rs/smart/jquery/test/security.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/security-kursevi/ec-council/"
+    },
+    {
+        "id": "28",
+        "category" : "Security",
+        "title": "Sophos",
+        "img": "http://www.mrav.rs/smart/jquery/test/security.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/security-kursevi/sophos/"
+    },
+    {
+        "id": "29",
+        "category" : "Graphic Design",
+        "title": "Grafički dizajn",
+        "img": "http://www.mrav.rs/smart/jquery/test/grafika.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/graficki-kursevi/graficki-dizajner/"
+    },
+    {
+        "id": "30",
+        "category" : "Management",
+        "title": "Biznis analiza",
+        "img": "http://www.mrav.rs/smart/jquery/test/management.jpg",
+        "url": "https://www.smartschool.rs/course/business-analysis-poslovna-analiza/"
+    },
+    {
+        "id": "31", 
+        "category" : "Management",
+        "title": "ITIL",
+        "img": "http://www.mrav.rs/smart/jquery/test/management.jpg",
+        "url": "https://www.smartschool.rs/course/it-i-l-foundations-of-it-service-management/"
+    },
+    {
+        "id": "32",
+        "category" : "Management",
+        "title": "Menadžment",
+        "img": "http://www.mrav.rs/smart/jquery/test/management.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/menadzment/menadzment-2/"
+    },
+    {
+        "id": "33",
+        "category" : "Management",
+        "title": "Prezentacione veštine",
+        "img": "http://www.mrav.rs/smart/jquery/test/management.jpg",
+        "url": "https://www.smartschool.rs/course/prezentacione-vestine/"
+    },
+    {
+        "id": "34",
+        "category" : "Project Management",
+        "title": "PM Training Program",
+        "img": "http://www.mrav.rs/smart/jquery/test/pm.jpg",
+        "url": "https://www.smartschool.rs/kursevi-smart-skole/project-management-kursevi/project-management-training-program/"
+    },
+    {
+        "id": "35",
+        "category" : "Project Management",
+        "title": "Alati za upravljanje projektima",
+        "img": "http://www.mrav.rs/smart/jquery/test/pm.jpg",
+        "url": "https://www.smartschool.rs/course/alati-za-upravljanje-projektima-project-management/"
+    },
+    {
+        "id": "36",
+        "category" : "Agile & Scrum",
+        "title": "CSM - Certified Scrum Master",
+        "img": "http://www.mrav.rs/smart/jquery/test/agile.jpg",
+        "url": "https://www.smartschool.rs/course/certified-scrum-master-csm/"
+    },
+    {
+        "id": "37",
+        "category" : "Agile & Scrum",
+        "title": "A-CSM - Advanced Certified Scrum Master",
+        "img": "http://www.mrav.rs/smart/jquery/test/agile.jpg",
+        "url": "https://www.smartschool.rs/course/advanced-certified-scrum-master-csm/"
+    },
+    {
+        "id": "38",
+        "category" : "Agile & Scrum",
+        "title": "Collaborative Product Owner Training",
+        "img": "http://www.mrav.rs/smart/jquery/test/agile.jpg",
+        "url": "https://www.smartschool.rs/course/collaborative-product-owner-training/"
+    },
+    {
+        "id": "39",
+        "category" : "Agile & Scrum",
+        "title": "Certified Scrum Product Owner Training",
+        "img": "http://www.mrav.rs/smart/jquery/test/agile.jpg",
+        "url": "https://www.smartschool.rs/course/certified-scrum-product-owner-training/"
+    },
+    {
+        "id": "40",
+        "category" : "Agile & Scrum",
+        "title": "Certified Scaled Agile - Leading Scaled Agile Framework - SAFe 4.6",
+        "img": "http://www.mrav.rs/smart/jquery/test/agile.jpg",
+        "url": "https://www.smartschool.rs/course/certified-scaled-agile-leading-scaled-agile-framework-safe-4-6/"
+    }
+]

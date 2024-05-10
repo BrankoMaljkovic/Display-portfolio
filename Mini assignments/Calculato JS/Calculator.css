@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    width: 100%;
+}
+
+
+form{
+    /* border: solid 3px red; */
+    background-color: lightgray;
+    display: inline-block;
+}
+
+.okvir{
+    /* background-color: lightgreen; */
+    /* border: solid 3px red; */
+    height: 450px;
+    width: 300px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* DIV prikaz */
+.prikaz{
+    /* background-color: green; */
+    /* border: solid 3px red; */
+    width: 100%;
+    height: 30%;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* .prikaz i{
+     padding: 20px;
+} */
+
+.prikaz p{
+    min-height: 50%;
+    width: 100%;
+    /* background-color: blue; */
+   font-size: 35px;
+   font-weight: bold;
+   display: flex;
+   /* align-content: center;  */
+   align-items: center;
+   justify-content: flex-end;
+   padding-right: 5px;
+   /* border: solid 1.5px darkgray; */
+}
+
+p #mainPrikaz{
+    text-align: right;
+    width: 100%;
+    /* word-wrap: break-word; */
+    overflow: auto;
+}
+
+.prikaz table{
+    height: 50%;
+}
+
+tr{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    /* word-wrap: break-word; */
+    max-width: 290px;
+    overflow: auto;
+}
+
+td{
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+td #operDisplay {
+    margin-left: auto;
+}
+
+td #result{
+    /* width: 100%; */
+    text-align: right;
+}
+
+
+#result{
+    margin-right: 5px;
+    padding-right: 5px;
+    /* border: solid 1.5px darkgray; */
+    width: 90%;
+    text-align: right;
+}
+
+table {
+    background-color: lightgray;
+}
+
+#secondaryPrikaz{
+    height: 25%;
+}
+
+
+/* Numeric part */
+.numeric{
+    background-color: lightblue;
+    /* border: solid 3px red; */
+    position: relative;
+    left: 0;
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numberButton, .resultButton{
+    background-color: lightgray;
+    border-radius: 5px;
+    float: left;
+    width: 33.33%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.operations{
+    background-color: lightpink;
+    /* border: solid 3px red; */
+    position: relative;
+    right: 0;
+    width: 20%;
+    height: 70%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operationsButton{
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.clear{
+    height: 10%;
+    width: 80%;
+    position: absolute;
+    display: inline-flex;
+    flex-wrap: wrap;
+    bottom: 0;
+    left: 0;
+}
+
+.clearButton, .posnegButton{
+    background-color: lightgray;
+    border-radius: 5px;
+    float: left;
+    width: 33.33%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input:hover{
+    background-color: gray;
+}
+
+input:active{
+    background-color: black;
+    color: lightgray;
+}
+

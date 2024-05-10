@@ -1,0 +1,27 @@
+Potrebno je uraditi sledece u okviru zadatka, a rezultat treba da izgleda
+kao na slici zadatak1.jpg:
+
+1.Potrebno je napraviti CSS folder i u okviru njega napraviti style.css fajl - done
+
+2.U newdesign.html pozvati style.css kao eksterni link. - done
+
+3.U style.css napraviti selektor za html i podesiti margine i pedinge na 0;
+
+4.Zatim je potrebno napraviti selektor h1 sa font family cursive, podesiti tekst na centar, staviti velicinu fonta na na 2em i podesiti background color na bisque. - done
+
+5.Potrebno je dodati selektor za h2, i podesiti boju na red, background color na azure i setovati font style na italic. - done
+
+6.Postaviti background image na background-10.jpg u body selektor. - done
+
+7.Svi paragrafi moraju da imaju velicinu 16px i Arial kao prvu opciju, Helvetica kao drugu opciju, i ukoliko ni jedna od njih ne postoji staviti default sans-serif font. - done
+
+8.Za id contact, setovati tekst u crvenu boju, staviti 14px velicinu teksta, italic stil i sans-serif font. - done
+
+9.Promenite poziciju i postavite sliku na sredinu stranice. - done
+
+10.U klasi details podesiti background color na darkgoldenrod i postaviti ovaj div da ima marginu 20px sa leve i desne strane. - done
+
+11.Promeniti u contact div tagu <pre> na <p>, snimite i osvezite stranicu i pogledajte promenu. Nakon toga promenite <p> na <pre> tag i snimite promenu. - done
+
+12.Napravite sledece promene na dizajnu linka Search. Promenite link dizajn
+tako da uklonite liniju ispod linka, zatim napravite border oko linka i postavite peding na 3px.Link mora da se nalazi na desnoj strani stranice.

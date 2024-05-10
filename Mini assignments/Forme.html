@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak forme</title>
+</head>
+<body>
+    <!-- Registraciona forma zadatak forme -->
+    <form>
+        
+    <table border="1" >
+        <!-- Naslov -->
+        <tr> 
+            <td colspan="2" style="text-align: center; vertical-align: middle;">
+                <h1>Registration Form</h1>
+            </td>
+        
+        </tr>
+        <!-- Name -->
+        <tr>
+            <td>Enter name</td>
+            <td>
+                <form>
+                    <input type="text" name="imeKorisnika" placeholder="Enter your name" id="name" required>
+                </form>
+            </td>
+        </tr>
+        <!-- Password -->
+        <tr>
+            <td>Enter password</td>
+            <td>
+                <input type="password" name="sifraKorisnika" id="psw" placeholder="Enter your password" required>
+            </td>
+        </tr>
+        <!-- Address -->
+        <tr>
+            <td>Enter address</td>
+            <td>
+                <textarea name="adresa" id="address" cols="25" rows="2"></textarea>
+            </td>
+        </tr>
+        <!-- Game -->
+        <tr>
+            <td>Select game</td>
+            <td>
+                <input type="checkbox" id="Hockey" name="game1">
+                <label for="Hockey"> Hockey</label><br>
+                <input type="checkbox" id="Football" name="game2">
+                <label for="Football"> Football</label><br>
+                <input type="checkbox" id="Badminton" name="game3">
+                <label for="Badminton"> Badminton</label><br>
+                <input type="checkbox" id="Cricket" name="game4">
+                <label for="Cricket"> Cricket</label><br>
+                <input type="checkbox" id="Volleyball" name="game5">
+                <label for="Volleyball"> Volleyball</label>
+            </td>
+        </tr>
+        <!-- Gender -->
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="pol" id="male" checked>
+                <label for="male">Male</label>
+
+                <input type="radio" name="pol" id="female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+        <!-- Age -->
+        <tr>
+            <td>Select your age</td>
+            <td>
+                <select id="age" name="godineKorisnika">
+                    <option selected disabled>Select</option>
+                    <option value="0-15">0-15</option>
+                    <option value="16-30">16-30</option>
+                    <option value="31-45">31-45</option>
+                    <option value="over 45">preko 45</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Select photo</td>
+            <td>
+                <input type="file" multiple>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="Click me">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit Form">
+            </td>
+            
+        </tr>
+    </table>
+</form>
+
+
+</body>
+</html>

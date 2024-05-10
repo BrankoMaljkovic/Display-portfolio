@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="Calculator.css">
+
+    <title>Kalkulator Domaci Zadatak Dva prikaza</title>
+</head>
+
+<body>
+    <h1>Kalkulator Domaci Zadatak</h1>
+
+    <form id="form_id">
+        <fieldset>Kalkulator Vezba</fieldset>
+        <!-- DIV spoljne ivice kalkulatora -->
+        <div class="okvir">
+            <!-- DIV za prikaz rezultata -->
+            <div class="prikaz">
+                <table>
+                    <tr>
+                        <td id="result"></td>
+                        <td id="operDisplay"></td>
+                    </tr>
+                    <p id="mainPrikaz">0</p>
+                </table>
+            </div>
+            <!-- Div prikaz za brojeve 4x3 tacka i +/- -->
+            <div class="numeric">
+                <!-- DIV gde ce biti smestena numericka tastatura sa +/- i . poljima -->
+                <input type="button" class="numberButton" value="7" onclick="addValue('7');">
+                <input type="button" class="numberButton" value="8" onclick="addValue('8');">
+                <input type="button" class="numberButton" value="9" onclick="addValue('9');">
+                <input type="button" class="numberButton" value="4" onclick="addValue('4');">
+                <input type="button" class="numberButton" value="5" onclick="addValue('5');">
+                <input type="button" class="numberButton" value="6" onclick="addValue('6');">
+                <input type="button" class="numberButton" value="1" onclick="addValue('1');">
+                <input type="button" class="numberButton" value="2" onclick="addValue('2');">
+                <input type="button" class="numberButton" value="3" onclick="addValue('3');">
+                <input type="button" class="numberButton" value="." onclick="addValuePoint('.');">
+                <input type="button" class="numberButton" value="0" onclick="addValue('0');">
+                <input type="button" class="resultButton" value="=" onclick="addResult();">
+            </div>
+            <!-- DIV za prikaz operacija + - * / -->
+            <div class="operations">
+                <!-- DIV gde ce biti smestene operacije -->
+                <input type="button" class="operationsButton" value="+" onclick="Operations('+');">
+                <input type="button" class="operationsButton" value="-" onclick="Operations('-');">
+                <input type="button" class="operationsButton" value="*" onclick="Operations('*');">
+                <input type="button" class="operationsButton" value="/" onclick="Operations('/');">
+            </div>
+            <!-- DIV restart i clear -->
+            <div class="clear">
+                <input type="reset" class="clearButton" value="C" onclick="clearAll();">
+                <input type="button" class="clearButton" value="AC" onclick="clearLast();">
+                <input type="button" class="posnegButton" value="+/-" onclick="plusMinus();">
+            </div>
+        </div>
+
+    </form>
+
+    <!-- RADI kalkulator kalkulatorDomaciDvaPrikaza -->
+    <script src="Calculator.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Test - zadatak 3</title>
+</head>
+
+<body>
+
+    <h2>Kamen, papir ili makaze</h2>
+
+    <p>Koristeci prompt metod pokupiti izbor igraca</p>
+    <p>Koristeci Math.random metodu pokupiti izbor racunara (<0.34=kamen, <=0.67=papir,>0.68 = makaze)</p>
+    <p>Ukoliko je izbor igraca i racunara isti, rezultat je onda neresen</p>
+    <p>Ukoliko je izbor igraca kamen: kamen je jaci od makaza a slabiji od papira</p>
+    <p>Ukoliko je izbor igraca papir: papir je jaci od kamena a slabiji od makaza</p>
+    <p>Ukoliko je izbor igraca makaze: makaze su jace od papira a slabije od kamena</p>
+    <p>Prikazati u konzoli izbor igraca, racunara kao i rezultat</p>
+
+    <input type="button" value="Start" id="start" onclick="pocetak();" style="padding: 20px">
+
+
+    <script>
+
+        function pocetak() { // dodeljujemo vrednosti i izbacujemo por ako nije izabrano izmedju 1-3
+            var playerSel = '';
+            var pcSel = '';
+            
+            function izaberi() {
+                izbor = prompt(`Izaberite jedan od sledecih opcija\n1 za KAMEN - 2 za PAPIR - 3 za MAKAZE`);
+                
+                if (izbor == '1') {
+                    playerSel = 'Kamen'
+                } else {
+                    if (izbor == '2') {
+                        playerSel = 'Papir'
+                    } else {
+                        if(izbor == '3'){ 
+                            playerSel = 'Makaze'
+                        } else{
+                            if(izbor == null){
+
+                        }else{
+                            alert('Niste izabrali jednu od trazenih vrednosti!\nPokusajte ponovo!');
+                            izaberi(); // ako nije izabrano nista trazeno, ponovo pokrecemo funkciju
+                        }
+                    }
+                }
+            }
+        }
+
+            function randomChoice() {
+                pcSel = Math.random();
+                if (pcSel <= 0.34) {
+                    pcSel = 'Kamen'
+                } else {
+                    if (pcSel <= 0.67) {
+                        pcSel = 'Papir'
+                    } else {
+                        pcSel = 'Makaze'
+                    }
+                }
+            }
+
+            izaberi();
+            console.log(`Player je izabrao: ${playerSel}`);
+
+            randomChoice();
+            console.log(`PC je izabrao: ${pcSel}`);
+
+            // izaberi();
+            function rezultat() {
+                if (playerSel == pcSel) {
+                    alert(`Rezultat je neresen oba igraca su izabrala ${pcSel}!`)
+                } else {
+
+                    if ((playerSel == 'Kamen' && pcSel == 'Makaze') || (playerSel == 'Papir' && pcSel == 'Kamen') || (playerSel == 'Makaze' && pcSel == 'Papir')) {
+                        alert(`Pobedio je player jer je izabrao ${playerSel}, a racunar ${pcSel}`)
+                    } else {
+                        if ((pcSel == 'Kamen' && playerSel == 'Makaze') || (pcSel == 'Papir' && playerSel == 'Kamen') || (pcSel == 'Makaze' && playerSel == 'Papir')) {
+                            alert(`Pobedio je racunar jer je izabrao ${pcSel}, a player ${playerSel}`)
+                        }
+                    }
+                }
+            }
+            
+            rezultat();
+
+        } // zatvarajuci start
+
+
+
+    </script>
+
+
+</body>
+
+</html>

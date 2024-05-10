@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASS</title>
+    <link rel="stylesheet" href="stylesCardShowMore.css">
+</head>
+
+<body>
+
+    <div class="cards">
+        <div class="card">
+            <h2>Card 1</h2>
+            <img src="img1.jpg">
+            <p class="p.ispis">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur aliquid quisquam pariatur quae ad?
+                Provident magnam architecto obcaecati libero eum inventore, iure dolores cupiditate dicta assumenda,
+                fugit id cumque sed!</p>
+            <input class="btnExtand" type="button" value="Show more" onclick="content(this)">
+        </div>
+        <div class="card">
+            <h2>Card 2</h2>
+            <img src="img2.jpg">
+            <p class="p.ispis">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur aliquid quisquam pariatur quae ad?
+                Provident magnam architecto obcaecati libero eum inventore, iure dolores cupiditate dicta assumenda,
+                fugit id cumque sed!</p>
+            <input class="btnExtand" type="button" value="Show more" onclick="content(this)">
+        </div>
+        <div class="card">
+            <h2>Card 3</h2>
+            <img src="img3.jpg">
+            <p class="p.ispis">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur aliquid quisquam pariatur quae ad?
+                Provident magnam architecto obcaecati libero eum inventore, iure dolores cupiditate dicta assumenda,
+                fugit id cumque sed!</p>
+            <input class="btnExtand" type="button" value="Show more" onclick="content(this)">
+        </div>
+    </div>
+ 
+    <script>
+        
+        function content(element) {
+            
+            console.log(`Koja je vrednost element style white-space`, element.previousElementSibling.style['white-space']); // provera elementa
+            if(element.previousElementSibling.style['white-space'] == "normal"){
+                element.previousElementSibling.removeAttribute("style","white-space: normal")
+                element.value = 'Show more';
+                element.style['background-color'] = 'darkgray';
+            } else {
+                element.previousElementSibling.setAttribute("style","white-space: normal")
+                element.value = 'Show less';
+                element.style['background-color'] = 'lightcoral';
+            }
+        }   
+    </script>
+
+
+</body>
+
+</html>
+
+<!-- var x = ele[par];
+console.log(ele);
+if (x.style['white-space'] === "normal") {
+    x.style['white-space'] = "nowrap";
+    txt[par].value = 'Show more';
+    txt[par].style['background-color'] = 'darkgray';
+} else {
+    x.style['white-space'] = "normal";
+    txt[par].value = 'Show less';
+    txt[par].style['background-color'] = 'lightcoral'; -->

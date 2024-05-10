@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CoursesWebsite</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style type="text/css">
+    	* {font-family: Arial, sans-serif;}
+    	th, td {text-align: left; padding: 2px 5px;}
+    </style>
+</head>
+<body>
+	<h1>Smart School kursevi</h1>
+
+	<div>
+		<select id="menu">
+			<option value="">Odaberite oblast</option>
+			<option value="Web/Programming">Web/Programming</option>
+			<option value="SysAdmin">SysAdmin</option>
+			<option value="Cloud">Cloud</option>
+			<option value="Microsoft Office">Microsoft Office</option>
+			<option value="Management">Management</option>
+			<option value="Project Management">Project Management</option>
+			<option value="Security">Security</option>
+			<option value="Graphic Design">Graphic Design</option>
+			<option value="Agile & Scrum">Agile & Scrum</option>
+		</select>
+	</div>
+
+	<div id="ispis">
+		<table id="kursevi" class="display" style="width:100%">
+			<thead>
+				<tr>
+	        		<th>ID</th>
+	        		<th>slika</th>
+	        		<th>Kategorija</th>
+	        		<th>Naslov/Link</th>
+	        	</tr>
+        	</thead>
+        	<tbody></tbody>
+		</table>
+	</div>
+
+	<footer>
+		<p>&copy; Branko 2024. <a target="_blank" href="https://www.smartschool.rs/kursevi-smart-skole/">smartschool.rs</a></p>
+	</footer>
+
+    <script src="CoursesWebsite.js"></script>
+
+</body>
+</html>
