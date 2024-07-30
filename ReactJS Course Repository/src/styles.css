@@ -1,0 +1,214 @@
+/*.title {
+    background-color: red;
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.active {
+    background-color: cornflowerblue;
+    color: #fff;
+    border: 2px solid red;
+}
+
+.main-heading {
+    padding: 30px;
+    font-size: 22px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+}
+
+.custom-table th {
+    background-color: mediumseagreen;
+    color: #fff;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+.form-text-red {
+    border: 2px solid red;
+}
+
+.form-text-blue {
+    border: 2px solid blue;
+}
+
+.loader-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-num {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.btn {
+    display: block;
+    min-width: 150px;
+    background-color: crimson;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:disabled {
+    background: #808080;
+    cursor: not-allowed;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+}*/
+
+/* Todo App */
+/* body {
+    margin: 0;
+    background-color: #2d2d2d;
+    color: #61dafb;
+    padding: 50px;
+}
+
+.todo-input-container input {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+}
+
+.todo-input-container .btn {
+    margin-left: 15px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+.todo-input-container .btn:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.todo-list {
+    padding: 0;
+    list-style: none;
+    max-width: 350px;
+}
+
+.todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #61dafb;
+    color: #333;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.todo-list .delete-icon {
+    color: #333;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.todo-list .delete-icon:hover {
+    opacity: 1;
+} */
+
+/* MAXIMUS */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #181c1f;
+    color: #bdd1d4;
+    margin: 2rem;
+  }
+  
+  header {
+    margin: 2rem 0;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  header img {
+    width: 3rem;
+    object-fit: contain;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #48d9f3;
+  }
+  
+  header p {
+    margin: 0;
+    color: #82c2ce;
+  }
+  
+  #tabs {
+    max-width: 32rem;
+    margin: 2rem 0;
+    overflow: hidden;
+  }
+  
+  #tabs menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0.25rem;
+  }
+  
+  #tabs button {
+    font: inherit;
+    font-size: 0.85rem;
+    background-color: #282f33;
+    border: none;
+    border-bottom-color: #48d9f3;
+    color: #e0eff1;
+    border-radius: 4px 4px 0 0;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+  
+  #tabs button:hover,
+  #tabs button.active {
+    background-color: #48d9f3;
+    color: #273133;
+  }
+  
+  #tab-content {
+    background-color: #2d3942;
+    border-radius: 0 4px 4px 4px;
+    padding: 1rem;
+  }
+  
+  #tab-content li {
+    margin: 0.75rem 0;
+  }
